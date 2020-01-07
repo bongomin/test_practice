@@ -1,0 +1,12 @@
+<div class="container col-8 m-auto"">
+   <div style=" margin-top: 100px;">
+   <h1>Add New Book</h1>
+   <form method="POST" action="/books/new">
+      <div class="form-group">
+         <%- include('../partials/_books_form_fields')%>
+      </div>
+      <a class="btn btn-success" href="/books/all">Cancel</a>
+      <button type="submit" class="btn btn-primary">Submit</button>
+   </form>
+</div>
+</div>

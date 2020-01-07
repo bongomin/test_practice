@@ -1,0 +1,16 @@
+
+# check index endpoint
+GET http://localhost:3000
+
+###
+
+# displaying all authers
+GET http://localhost:3000/auther/all
+
+###
+# displaying single user
+GET http://localhost:3000/auther/singleUser
+###
+
+POST  http://localhost:3000/author/new
+
